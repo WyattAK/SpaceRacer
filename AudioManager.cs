@@ -23,7 +23,7 @@ public class AudioManager : MonoBehaviour {
 
 		foreach (Sound s in sounds) 
 		{
-			// Enables controls in the Unity Editor for specific paramters of each sound 
+			// Enables controls in the Unity Editor for specific parameters of each sound 
 			// Volume, pitch, clip length, and looping (on or off)
 			s.source = gameObject.AddComponent<AudioSource> ();
 			s.source.clip = s.clip;
